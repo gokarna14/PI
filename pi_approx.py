@@ -18,7 +18,7 @@ error = 1
 combo = [p, error]
 values = [[], []]
 
-interval = np.linspace(-5, 5, n)
+interval = np.linspace(-r, r, n)
 max = int(input("How many iterations (in millions) you want to perform: "))
 
 while(1):
